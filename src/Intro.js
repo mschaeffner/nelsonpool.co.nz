@@ -18,16 +18,11 @@ export default ({onStart}) =>
     <div style={{paddingTop: '20px'}}>
       <b>Swimming Pool for the Northern Nelson region</b>
       <br />
-      Hi, my name is Christin and I am Mum of two who came from Berlin to this beautiful place.
-      I was pretty amazed to see my children’s progress during their summer swimming lessons and I would love to have more options to see them thriving in the winter as well. I think a non-toxic pool could be a healthier alternative and would probably work well for Nelson.
-      To find out if other people have similar aspirations, I created this questionnaire and I would love to see as many people as possible participating and I really appreciate your thoughts, ideas and feedback!
-    </div>
-
-    <div style={{paddingTop: '20px'}}>
-      <b>How does the questionnaire work?</b>
       <br />
-      In general, just chose the right answers for you and tick the box. You can choose more than one answer. I shouldn’t take longer than 5 min to answer. Feel free to comment!
-      Interested in staying updated? Just leave your email at the end of the questionnaire.
+      Hi, my name is Christin and I am Mum of two who came from Berlin to this beautiful place. I would love to have more options for us to enjoy water even in winter. I think a non-toxic indoor pool could be a healthier alternative and would probably work well for Nelson. To find out if other people have similar aspirations, I created this questionnaire and I would love to see as many people as possible participating and I really appreciate your thoughts, ideas and feedback!
+      <br />
+      <br />
+      Just chose the right answer for you and tick the box. Sometimes, it is indicated that you can choose more than one answer. I shouldn’t take longer than 8 min to answer.
     </div>
 
     <div style={{paddingTop: '20px'}}>

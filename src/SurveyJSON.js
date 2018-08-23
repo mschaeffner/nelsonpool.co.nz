@@ -64,8 +64,12 @@ export default {
      title: "How old are you?",
      choices: [
       {
+       value: "item0",
+       text: "Under 16"
+      },
+      {
        value: "item1",
-       text: "Under 20"
+       text: "16 to 20"
       },
       {
        value: "item2",
@@ -142,7 +146,7 @@ export default {
     {
      type: "radiogroup",
      name: "question6",
-     title: "Do you have a household income or pension?",
+     title: "Do you have a household income from paid work or from a pension?",
      choices: [
       {
        value: "item1",
@@ -245,7 +249,7 @@ export default {
     {
      type: "matrix",
      name: "question18",
-     title: "When do you usually go swimming?",
+     title: "When do you usually go swimming in a pool?",
      columns: [
       {
        value: "1",
@@ -314,7 +318,7 @@ export default {
       },
       {
        value: "item5",
-       text: "Longer than 4 hours"
+       text: "More than 4 hours"
       }
      ]
     },
@@ -331,19 +335,19 @@ export default {
      rows: [
       {
        value: "1",
-       text: "... alone"
+       text: "Alone"
       },
       {
        value: "2",
-       text: ".. with your partner"
+       text: "With your partner"
       },
       {
        value: "3",
-       text: "... with your family"
+       text: "With your family"
       },
       {
        value: "4",
-       text: "... with your friends"
+       text: "With your friends"
       }
      ]
     },
@@ -416,19 +420,19 @@ export default {
      columns: [
       {
        value: "1",
-       text: "Not important at all"
+       text: "Very important"
       },
       {
        value: "2",
-       text: "No so important"
-      },
-      {
-       value: "4",
        text: "Important"
       },
       {
+       value: "4",
+       text: "No so important"
+      },
+      {
        value: "5",
-       text: "Very important"
+       text: "Not important at all"
       }
      ],
      rows: [
@@ -454,7 +458,7 @@ export default {
      choices: [
       {
        value: "item1",
-       text: "None"
+       text: "No"
       },
       {
        value: "item2",
@@ -485,7 +489,7 @@ export default {
      choices: [
       {
        value: "item1",
-       text: "I don’t have children / my children are adults "
+       text: "I don’t have children. / My children are adults."
       },
       {
        value: "item3",
@@ -493,11 +497,11 @@ export default {
       },
       {
        value: "item2",
-       text: "Only in summer"
+       text: "In summer only"
       },
       {
        value: "item4",
-       text: "In summer and winter"
+       text: "In winter and summer"
       }
      ]
     },
@@ -519,7 +523,7 @@ export default {
     {
      type: "radiogroup",
      name: "question20",
-     title: "Our body temperature is 36°C and a natural pool ranges up to about 28°C. How does that a swimming temperature seem to you?",
+     title: "Our body temperature is 36°C and a natural pool ranges up to about 28°C. How does this swimming temperature feel?",
      choices: [
       {
        value: "item1",
