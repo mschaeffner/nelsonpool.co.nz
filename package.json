@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "gh-pages": "^1.2.0",
     "rc-steps": "^3.1.1",
     "react": "^16.4.2",
@@ -13,7 +14,7 @@
     "survey-react": "^1.0.38"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

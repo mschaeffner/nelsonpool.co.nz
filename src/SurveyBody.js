@@ -36,7 +36,7 @@ export default class SurveyBody extends Component {
         <Survey.Survey
       		onCurrentPageChanged={(event) => this.onCurrentPageChanged(event.currentPageNo)}
           json={surveyJSON}
-          onComplete={(data) => this.props.onComplete(data)}
+          onComplete={(surveyModel) => this.props.onComplete(surveyModel.data)}
         />
       </div>
     )

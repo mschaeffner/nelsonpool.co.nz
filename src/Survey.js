@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 import SurveyHeader from "./SurveyHeader"
 import SurveyBody from "./SurveyBody"
 import SurveyEnd from "./SurveyEnd"
@@ -22,6 +23,7 @@ export default class Survey extends Component {
 
   onComplete(data) {
     console.log(data)
+    axios.post('https://pufjqdfx92.execute-api.eu-central-1.amazonaws.com/dev/survey', JSON.stringify(data))
     this.setState({complete: true, currentPageNo: 3})
   }
 
