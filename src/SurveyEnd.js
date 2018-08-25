@@ -6,12 +6,7 @@ export default () =>
     <h3>Thank you very much for your support!</h3>
 
     <div>
-      Please leave your email if you are interested in getting updated.
+      Email address saved.
     </div>
-
-    <form style={{paddingTop: '25px'}}>
-        <input style={{width: '300px', marginTop: '-2px', marginRight: '15px', display: 'inline-block'}} type="email" className="form-control" id="email" placeholder="Email" />
-        <button type="submit" className="btn btn-primary">Save</button>
-    </form>
 
   </div>

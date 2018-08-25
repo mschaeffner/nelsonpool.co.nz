@@ -18,9 +18,9 @@ export default class SurveyHeader extends Component {
 
         <div style={{padding: '40px 80px 20px 80px'}}>
           <Steps labelPlacement="vertical" current={this.props.currentPageNo}>
-            <Step title="Demographics" />
-            <Step title="Usage stuff" />
-            <Step title="Bla blub oh oh" />
+            <Step title="Page 1" />
+            <Step title="Page 2" />
+            <Step title="Page 3" />
           </Steps>
         </div>
 
