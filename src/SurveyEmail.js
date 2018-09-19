@@ -21,7 +21,7 @@ export default class SurveyEmail extends React.Component {
 
         <form style={{paddingTop: '25px'}}>
             <input
-              style={{width: '300px', marginTop: '-2px', marginRight: '15px', display: 'inline-block'}}
+              style={{width: '100%', maxWidth: '300px', marginBottom: '10px', marginTop: '-2px', marginRight: '15px', display: 'block'}}
               type="email"
               className="form-control"
               placeholder="Email"

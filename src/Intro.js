@@ -4,9 +4,9 @@ export default ({onStart}) =>
 
 <div>
 
-  <div style={{position: 'relative'}}>
-    <img alt='pool' src="pool_big.jpg" />
-    <h1 style={{position: 'absolute', top: '60px', left: '25px', fontSize: '48px', lineHeight: '150%', fontWeight: 'bold', color: 'white'}}>
+  <div style={{position: 'relative', overflow: 'hidden'}}>
+    <img alt='pool' src="pool_big.jpg" style={{width: '100%'}} />
+    <h1 className='title_h1'>
       Swimming Pool
       <br />
       Northern Nelson

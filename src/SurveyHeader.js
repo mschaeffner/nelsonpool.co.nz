@@ -9,14 +9,14 @@ export default class SurveyHeader extends Component {
     return (
       <div>
 
-        <div style={{position: 'relative', height: '60px'}}>
-          <img alt='pool' src="pool_small.jpg" />
-          <h3 style={{position: 'absolute', top: '20px', left: '10px', fontWeight: 'bold', color: 'white'}}>
+        <div style={{position: 'relative', height: '60px', overflow: 'hidden'}}>
+          <img alt='pool' src="pool_small.jpg" style={{width: '100%'}} />
+          <h3 className='title_h3'>
             Swimming Pool Northern Nelson
           </h3>
         </div>
 
-        <div style={{padding: '40px 80px 20px 80px'}}>
+        <div style={{padding: '40px 0px 20px 0px'}}>
           <Steps labelPlacement="vertical" current={this.props.currentPageNo}>
             <Step title="Page 1" />
             <Step title="Page 2" />
